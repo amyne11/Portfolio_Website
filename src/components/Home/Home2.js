@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -24,31 +25,29 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Python, Javascript and C/C++. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interest lies in developing new technologies and products in the realm of  &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Machine Learning and Artificial Intelligence </b> I am also deeply engaged in exploring advancements related to{" "}
                 <b className="purple">
-                  Blockchain.
+                AI-driven innovations and their practical applications..
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              In my work, I strive to harness my expertise in creating  <b className="purple">sophisticated AI solutions</b> utilizing Python, alongside leading machine learning frameworks and libraries such as 
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  TensorFlow and PyTorch
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; I am dedicated to leveraging these tools to drive innovation and deliver impactful
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> scalable AI applications.</b>
               </i>
             </p>
           </Col>
@@ -67,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/amyne11"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +74,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+        {/*      <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -94,17 +93,29 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/amine_elidrisssi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                
+                
                 </a>
               </li>
+              <li className="social-icons">
+  <a
+    href="mailto:amyne.elidrissi@gmail.com"
+    target="_blank"
+    rel="noreferrer"
+    className="icon-colour home-social-icons"
+  >
+    <AiFillMail />
+  </a>
+</li>
             </ul>
           </Col>
         </Row>

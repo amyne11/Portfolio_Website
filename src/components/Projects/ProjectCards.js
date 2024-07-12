@@ -7,7 +7,14 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      {props.videoSrc ? (
+        <video width="100%" controls>
+          <source src={props.videoSrc} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      ) : (
+        <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      )}
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
@@ -21,7 +28,6 @@ function ProjectCards(props) {
         {"\n"}
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -37,4 +43,5 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;
