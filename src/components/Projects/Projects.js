@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import recognition from "../../Assets/Projects/face recognition.png";
 import completion from "../../Assets/Projects/face completion.png";
-import videotest from "../../Assets/Projects/video intro.mp4";
+//import videotest from "../../Assets/Projects/video intro.mp4";
 import videotest1 from "../../Assets/Projects/video ai.mp4";
 import nn from "../../Assets/Projects/neural network.png";
 import othello from "../../Assets/Projects/othello.mp4";
